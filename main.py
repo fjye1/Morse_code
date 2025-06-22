@@ -19,7 +19,7 @@ morse_code_dictionary = {
     "@": ".--.-."
 }
 
-user_input =(input("enter the String to translate you would like to be encripted").upper())
+user_input =(input("enter the text or morse-code to be translated").upper())
 
 if user_input.startswith(".") or user_input.startswith("-"):
     words = user_input.strip().split(" ")
